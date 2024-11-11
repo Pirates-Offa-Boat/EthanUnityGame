@@ -3,14 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenuUI : MonoBehaviour
+public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("Platformer");
+        SceneManager.LoadSceneAsync("Level Select");
     }
     public void QuitGame()
     {
         Application.Quit();
     }
+    public void MonkeyMeadow()
+    {
+        SceneManager.LoadSceneAsync("Monkey Meadow");
+    }
+
 }

@@ -6,18 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 46482a8ba4b4f1446a78cf89b499d266
+    path: Assets/Scenes/Main Menu.unity
+    guid: d251d7c709718c24f9b0a0480fbbdf13
+  - enabled: 1
+    path: Assets/Scenes/Level Select.unity
+    guid: 30b293a7c01890943a08c58ba4dbcb03
   - enabled: 1
     path: Assets/Scenes/Monkey Meadow.unity
     guid: eb9d29c1b17df064ea29c57abe04cb9e
-  - enabled: 1
-    path: Assets/Scenes/LoseMenu.unity
-    guid: 3c9c353ab4884b443926ccd7014f2e32
-  - enabled: 1
-    path: Assets/Scenes/WinMenu.unity
-    guid: 0a3b4c8eb3be650409663e8799117bbd
-  - enabled: 1
-    path: Assets/Scenes/Controls.unity
-    guid: f3212198cda3808438ba4c5b9b610f69
   m_configObjects: {}
