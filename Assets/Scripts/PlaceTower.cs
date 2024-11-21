@@ -10,7 +10,7 @@ public class PlaceTower : MonoBehaviour
 
 
     public void spawnTower(){
-      int cost =  Tower.GetComponent<CannonScript>().cost;
+      int cost =  Tower.GetComponent<TowerScript>().cost;
 
       var sm = FindObjectOfType<SelectionManager>();
       var cs = sm.currentSelection;

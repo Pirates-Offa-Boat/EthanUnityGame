@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class CannonScript : MonoBehaviour
 {
-    public int cost;
    float counter = 0;
    private void OnTriggerStay(Collider other)
    {
@@ -16,7 +15,7 @@ public class CannonScript : MonoBehaviour
       
       counter+=Time.deltaTime;
       
-      if(counter >=0.5){
+      if(counter >=1){
 
          if (pirate != null)
          {
