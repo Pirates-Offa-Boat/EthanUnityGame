@@ -10,17 +10,20 @@ public class PlaceTower : MonoBehaviour
 
 
     public void spawnTower(){
+      int cost =  Tower.GetComponent<CannonScript>().cost;
 
       var sm = FindObjectOfType<SelectionManager>();
       var cs = sm.currentSelection;
 
-      if (cs.filled == false){
+      if (cs.filled == false && LevelManager.main.gold >= cost)
+        {
       var go = Instantiate(Tower);
 
          Debug.Log(cs.transform.position);
          go.transform.position = cs.transform.position;
          cs.filled = true;
          cs.Tower = go;
+            LevelManager.main.gold -= cost;
       }
 
    }

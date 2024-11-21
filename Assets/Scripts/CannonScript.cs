@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CannonScript : MonoBehaviour
 {
-
+    public int cost;
    float counter = 0;
    private void OnTriggerStay(Collider other)
    {

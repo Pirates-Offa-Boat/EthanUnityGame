@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager main;
 
     public Transform startPoint;
+
 
     [Header("References")]
     [SerializeField] private GameObject[] enemyPrefabs;
@@ -31,6 +34,8 @@ public class LevelManager : MonoBehaviour
     private bool isSpawning = false;
     public int gold = 150;
     public int health = 100;
+    public TextMeshProUGUI goldText;
+    public TextMeshProUGUI healthText;
 
 
     private void Awake()
@@ -47,6 +52,8 @@ public class LevelManager : MonoBehaviour
 
     private void Update()
     {
+        goldText.text = "Gold:" + gold.ToString();
+        healthText.text = "Lives:" + health.ToString();
         if (health <= 0)
         {
             isSpawning = false;
