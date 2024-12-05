@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-        Wpoints = GameObject.FindGameObjectWithTag("Waypoints").GetComponent<Waypoints>();
+      Wpoints = FindObjectOfType<LevelManager>().waypoints;
     }
 
     void Update()

@@ -2898,10 +2898,11 @@ MonoBehaviour:
   - {fileID: 5486359939693388251, guid: 5c49c8d33e89cc44981908953cd8c9ab, type: 3}
   - {fileID: 5888226423303332058, guid: 337a78324c75f0e4b87f5c2d544825b4, type: 3}
   - {fileID: 6319169548614233716, guid: f3dfe94cba50ca84391491f4f8302a8a, type: 3}
-  baseEnemies: 3
-  enemiesPerSecond: 0.2
-  timeBetweenWaves: 5
-  difficultyScalingFactor: 0.5
+  waypoints: {fileID: 903718559}
+  baseEnemies: 100
+  enemiesPerSecond: 1
+  timeBetweenWaves: 2
+  difficultyScalingFactor: 2
   gold: 150
   health: 100
   goldText: {fileID: 1331140329}

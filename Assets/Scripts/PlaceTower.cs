@@ -15,7 +15,7 @@ public class PlaceTower : MonoBehaviour
       var sm = FindObjectOfType<SelectionManager>();
       var cs = sm.currentSelection;
 
-      if (cs.filled == false && LevelManager.main.gold >= cost)
+      if (cs.filled == false && LevelManager.main.gold >= cost && cs)
         {
       var go = Instantiate(Tower);
 
