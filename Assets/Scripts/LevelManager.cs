@@ -14,7 +14,7 @@ public class LevelManager : MonoBehaviour
 
     [Header("References")]
     [SerializeField] private GameObject[] enemyPrefabs;
-
+   [SerializeField] public Waypoints waypoints;
     [Header("Attributes")]
     [SerializeField] private int baseEnemies = 3;
     [SerializeField] private float enemiesPerSecond = 0.2f;
