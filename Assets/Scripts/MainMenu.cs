@@ -13,9 +13,19 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
+    
+    public void MainScene()
+    {
+        SceneManager.LoadSceneAsync("Main Menu");
+    }
+    
     public void MonkeyMeadow()
     {
         SceneManager.LoadSceneAsync("Monkey Meadow");
     }
-
+    
+    public void Tutorial()
+    {
+        SceneManager.LoadSceneAsync("Tutorial");
+    }
 }

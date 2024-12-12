@@ -52,8 +52,8 @@ public class LevelManager : MonoBehaviour
 
     private void Update()
     {
-        goldText.text = "Gold:" + gold.ToString();
-        healthText.text = "Lives:" + health.ToString();
+        goldText.text = "Gold: " + gold.ToString();
+        healthText.text = "Lives: " + health.ToString();
         if (health <= 0)
         {
             isSpawning = false;

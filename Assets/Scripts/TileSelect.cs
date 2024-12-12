@@ -6,8 +6,8 @@ public class TileSelect : MonoBehaviour
    public GameObject IndicatorPrefab;
    public GameObject Indicator;
    public bool selected = false;
-
-
+   public bool filled = false;
+   
    public void Select()
    {
       
@@ -25,6 +25,4 @@ public class TileSelect : MonoBehaviour
       selected = false;
       Destroy(Indicator);
    }
-
-   public bool filled = false;
 }

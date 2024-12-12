@@ -13,5 +13,11 @@ EditorBuildSettings:
     guid: 30b293a7c01890943a08c58ba4dbcb03
   - enabled: 1
     path: Assets/Scenes/Monkey Meadow.unity
+    guid: 0ad195f3a7a2f6945ae6f77c628e7077
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 5773d237de0c9f044b34f6047debce24
+  - enabled: 0
+    path: Assets/Scenes/Old.unity
     guid: eb9d29c1b17df064ea29c57abe04cb9e
   m_configObjects: {}

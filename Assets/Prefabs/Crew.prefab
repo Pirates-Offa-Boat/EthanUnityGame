@@ -391,7 +391,7 @@ MonoBehaviour:
   speed: 4
   life: 50
   damage: 5
-  value: 15
+  value: 7
 --- !u!54 &2785838842554458768
 Rigidbody:
   m_ObjectHideFlags: 0
